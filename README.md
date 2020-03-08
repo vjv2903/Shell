@@ -31,13 +31,13 @@ Background processes :  Any command invoked with "&" is treated as background co
 This implies that your shell will spawn that process and doesn't wait for the process to exit. It
 will keep taking user commands.
 ### Example:
-<Name@UBUNTU:~>ls &
-This command when finished, should print result to stdout.
-<Name@UBUNTU:~>emacs &
-<Name@UBUNTU:~>ls -l -a ( Make sure all the given flags are executed properly for any command
+  <Name@UBUNTU:~> ls &
+  This command when finished, should print result to stdout.
+  <Name@UBUNTU:~>emacs &
+  <Name@UBUNTU:~> ls -l -a ( Make sure all the given flags are executed properly for any command
 and not just ls.) 
 Execute other commands
-<Name@UBUNTU:~> echo hello
+  <Name@UBUNTU:~> echo hello
 ## Specification 5: pinfo command (user defined)
 - pinfo  : prints the process related info of your shell program.
 ### Example:
@@ -58,7 +58,6 @@ Executable Path -- /usr/bin/gcc
 ## Specification 6: Finished Background Processes
 If the background process exits then the shell must display the appropriate message to the user.
 ### Example:
-After emacs exits, your shell program should check the exit status of emacs and print it on stderr.
-<Name@UBUNTU:~>.
-emacs with pid 456 exited normally
-<Name@UBUNTU:~>
+  After emacs exits, your shell program should check the exit status of emacs and print it on stderr.
+  <Name@UBUNTU:~>emacs with pid 456 exited normally
+  <Name@UBUNTU:~>
