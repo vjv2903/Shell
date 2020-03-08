@@ -6,8 +6,8 @@ is given along with it.
 When you execute your code a shell prompt of
 the following form must appear:
 <username@system_name:curr_dir>
-### Example: <Name@UBUNTU:~> 
-The directory from which the shell is invoked will be the home directory of the shell
+### Example: 
+<Name@UBUNTU:~>The directory from which the shell is invoked will be the home directory of the shell
 and should be indicated by "~". If the user executes "cd" i.e change dir then the
 corresponding change must be reflected in the shell as well.
 ### Example: ./a.out
@@ -31,10 +31,10 @@ Background processes :  Any command invoked with "&" is treated as background co
 This implies that your shell will spawn that process and doesn't wait for the process to exit. It
 will keep taking user commands.
 ### Example:
-<Name@UBUNTU:~> ls &
+<Name@UBUNTU:~>ls &
 This command when finished, should print result to stdout.
-<Name@UBUNTU:~> emacs &
-<Name@UBUNTU:~> ls -l -a ( Make sure all the given flags are executed properly for any command
+<Name@UBUNTU:~>emacs &
+<Name@UBUNTU:~>ls -l -a ( Make sure all the given flags are executed properly for any command
 and not just ls.) 
 Execute other commands
 <Name@UBUNTU:~> echo hello
@@ -59,7 +59,6 @@ Executable Path -- /usr/bin/gcc
 If the background process exits then the shell must display the appropriate message to the user.
 ### Example:
 After emacs exits, your shell program should check the exit status of emacs and print it on stderr.
-<Name@UBUNTU:~>
-emacs with pid 456 exited
-normally
+<Name@UBUNTU:~>.
+emacs with pid 456 exited normally
 <Name@UBUNTU:~>
