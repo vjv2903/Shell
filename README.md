@@ -6,7 +6,7 @@ is given along with it.
 When you execute your code a shell prompt of
 the following form must appear:
 <username@system_name:curr_dir>
-### Example: <Name@UBUNTU:~>
+### Example: <Name@UBUNTU:~> 
 The directory from which the shell is invoked will be the home directory of the shell
 and should be indicated by "~". If the user executes "cd" i.e change dir then the
 corresponding change must be reflected in the shell as well.
